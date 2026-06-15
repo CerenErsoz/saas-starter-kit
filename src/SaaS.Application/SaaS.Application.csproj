@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SaaS.Domain\SaaS.Domain.csproj" />
+    <ProjectReference Include="..\SaaS.Contracts\SaaS.Contracts.csproj" />
+    <ProjectReference Include="..\SaaS.SharedKernel\SaaS.SharedKernel.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
